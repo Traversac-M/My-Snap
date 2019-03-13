@@ -1,0 +1,30 @@
+#selectUsers {
+    width: 280px;
+}
+
+.file-input-wrapper {
+    width: 280px;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    margin: 5px 0 20px 0;
+}
+
+.file-input-wrapper > input[type="file"] {
+    font-size: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.file-input-wrapper > .btn-file-input {
+    display: inline-block;
+    width: 280px;
+    height: 60px;
+}
+
+.file-input-wrapper:hover > .btn-file-input {
+    background-color: #4CAF50;
+    border:none;
+}
